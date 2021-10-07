@@ -9,7 +9,7 @@ Git.Repository.open('nodegit')
   .then(m => {
     console.log(m);
   })
-
+// todo
 Git.Repository.open('nodegit')
   .then(getMostRecentCommit)
   .then(message => {
